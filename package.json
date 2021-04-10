@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "less": "^4.1.1",
+    "lx-react-dom": "^0.1.0",
+    "lxreact": "^0.1.0",
+    "vite": "^2.1.2"
+  }
+}
