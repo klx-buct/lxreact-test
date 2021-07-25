@@ -78,7 +78,9 @@ export class App extends LXReact.LXComponent {
         <h1>props不变不重新渲染</h1>
         <div>
         <ClassDemo>
-          <FunctionDemo msg="class demo's child"/>
+          <FunctionDemo msg="class demo's child">
+            functionDemo child
+          </FunctionDemo>
         </ClassDemo>
         </div>
 

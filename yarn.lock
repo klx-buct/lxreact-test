@@ -96,15 +96,20 @@ less@^4.1.1:
     needle "^2.5.2"
     source-map "~0.6.0"
 
-lx-react-dom@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/lx-react-dom/-/lx-react-dom-0.1.0.tgz#45f05ac0b3e3b0c064777d7c61ed83734688d4ad"
-  integrity sha512-7hZiBaxjlwCUzaDkdNCyYo/KFZGH/kTkg5z+Ezn3hy2fvMmUrrgJH8EsCldYupJkcTIJnhgjr+ej0T8nHFKbxw==
+lx-react-dom@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/lx-react-dom/-/lx-react-dom-1.0.0.tgz#5d7580695a50e89911f402e21f544e12d01216ce"
+  integrity sha512-5N3PvhcESHcM+EpYzTwx8n0KHfmgfJpcoPnM1PUcxatvNiKaMULlaGO6+wpoXK0brkVRBuHrpMaGQc4UtzvUMQ==
 
-lxreact@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/lxreact/-/lxreact-0.1.0.tgz#bf5ffbf1c4a0e3fc776c319573a28aa9250d668a"
-  integrity sha512-AnCWMU7BbU3M4wmugjTV9MG1uev5wmU7ZKBdYOAJVDcaFWcPOiU+t8jPVcgevODq5njeEoJhg9taYXkNrYdHPA==
+lx-react-share@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/lx-react-share/-/lx-react-share-1.0.0.tgz#adb86072d6e379eb9e64fd62679be4f9b53f002e"
+  integrity sha512-42Ibnu/BZqaYjYn9Gjml9UeOgWP5kfm5pZGrd19GBuZ/+U0npls9ZA55Xs1pbfJ/mOZnvd5NcShKQKjbY2ghQQ==
+
+lxreact@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/lxreact/-/lxreact-1.0.0.tgz#10b364b98f4e43a20085998f8db250b958529e57"
+  integrity sha512-RRrqMxpIQVL5LBHgGUI4ce/A0nm81BeeEMdZ8MPAZZzeFUSmAjeqPGKv84KZXybmlGWrh5Tm0aJ5HsucXZjU3w==
 
 make-dir@^2.1.0:
   version "2.1.0"
