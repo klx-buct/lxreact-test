@@ -6,7 +6,7 @@ import { ClassDemo } from './component/ClassDemo';
 import { ClassDemo1 } from './component/ClassDemo1';
 import { ShouldDemo } from './component/ShouldDemo';
 import { StaticDemo } from './component/StaticDemo';
-
+const { useLXState, useLXEffect } = LXReact;
 const componentList = [
   {
     key: 'com1',
@@ -17,6 +17,23 @@ const componentList = [
     component: ClassDemo1
   }
 ]
+
+const Demo = () => {
+  const [state, setState] = useLXState(0);
+
+  useLXEffect(() => {
+    setInterval(() => {
+      console.log(state);
+    }, 1000);
+  }, [state])
+
+  return (
+    <>
+      <div>{state}</div>
+      <button onClick={() => setState(state+1)}>add</button>
+    </>
+  )
+}
 
 export class App extends LXReact.LXComponent {
   constructor(props) {
@@ -32,6 +49,9 @@ export class App extends LXReact.LXComponent {
         <div>
           app state: {this.state.data}
         </div>
+
+        <h1>function</h1>
+        <Demo />
 
         <h1>基础 jsx 渲染</h1>
         <div>

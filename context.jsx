@@ -1,6 +1,5 @@
 import LXReact from 'lxreact';
 import LXReactDOM from 'lx-react-dom';
-import { useLXState, useLXEffect, useLXContext } from 'lxreact/src/LXReact';
 
 const Context = LXReact.createLXContext();
 
